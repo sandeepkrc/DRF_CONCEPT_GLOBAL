@@ -1,1 +1,13 @@
 
+
+1. How to check serializer field serialized by ModelSerializer ?
+( geting option for posting data )
+
+Ans---
+
+a. start django shell >>>> py manage.py shell
+
+>>>
+from snippets.serializers import SnippetSerializer
+serializer = SnippetSerializer()
+print(repr(serializer))
